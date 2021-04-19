@@ -1,0 +1,13 @@
+﻿@model List<ApplicationCore.Models.Response.MovieCardResponseModel>
+
+
+<h5>Movie List: </h5>
+@foreach (var movie in Model)
+{
+    <p>
+        <img src="@movie.PosterUrl"
+             class="rounded float-start"
+             alt="@movie.PosterUrl" />
+    </p>
+
+}

@@ -1,0 +1,92 @@
+
+<div class="container">
+  
+
+  <div class="row">
+    <div class="col">
+      <img
+      src="{{movie?.posterUrl}}"
+      alt="{{ movie?.title }}"
+      class="img-fluid"
+      />
+    </div>
+    <div class="col-6">
+      <div>
+        <p>{{movie?.title}}</p>
+      </div>
+
+      <div>
+        <span class="badge bg-warning text-dark">{{movie?.rating}}</span>
+
+      </div>
+
+
+      <div *ngFor="let genre of movie?.genre">
+        <span class="badge badge-danger">{{genre.name}}</span>
+      </div>
+
+      
+      <div>
+        <p>{{movie?.overview}}</p>
+      </div>
+
+    </div>
+    <div class="col">
+      3 of 3
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <h5>MOVIE FACTS</h5>
+                <table class="table table-striped">
+                    <tbody>
+                        <tr>
+                            <td> Release Date </td>
+                            <td><span class="badge bg-dark text-white">{{movie?.releaseDate}}</span></td>
+                        </tr>
+                        <tr>
+                            <td> Run Time   </td>
+                            <td><span class="badge bg-dark text-white">{{movie?.runTime}}</span></td>
+                        </tr>
+                        <tr>
+                            <td> Box Office </td>
+                            <td><span class="badge bg-dark text-white">{{movie?.revenue}} </span></td>
+                        </tr>
+                        <tr>
+                            <td> Budget   </td>
+                            <td><span class="badge bg-dark text-white">{{movie?.budget}}</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+    </div>
+
+
+    <div class="col-5">
+      <h5>CAST</h5>
+           
+      
+              <div *ngFor="let cast of movie?.casts">
+
+                   <app-cast-card [cast]="cast"> </app-cast-card> 
+              </div>
+         
+
+    </div>
+    <div class="col">
+      <h5>USER REVIEWS</h5>
+      <table class="table table-striped">
+          <tbody>
+              
+                <tr *ngFor="let review of movie?.review">
+                  <td>
+                   {{review?.content}}
+                  </td>
+                </tr>
+
+          </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+

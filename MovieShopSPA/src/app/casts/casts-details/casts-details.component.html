@@ -1,0 +1,34 @@
+
+<div class="container">
+    <div class="row">
+      <div class="col">      
+        <img class="cast-small-img rounded-circle" style="height: 300px"
+          src="{{cast?.profilePath}}"
+          alt = "{{cast?.name}}"
+          class = "img-fluid"
+        />
+     </div>
+
+
+    <div class="w-100">
+        <div class="col">
+            <ul class="list-group">
+                <li class="list-group-item">{{cast?.name}}</li>
+                <li class="list-group-item"> known for </li>
+                
+            </ul>
+        </div>
+    </div>
+
+   
+    <div
+    *ngFor="let movie of cast?.cast"
+    >
+         <app-movie-card [movie]="movie"></app-movie-card>
+    
+    </div>
+
+
+      <div class="col">col</div>
+    </div>
+  </div>

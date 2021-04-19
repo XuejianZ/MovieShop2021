@@ -1,0 +1,92 @@
+﻿@model ApplicationCore.Models.Response.MovieDetailsResponseModel
+
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <img src="@Model.PosterUrl "
+                 class="rounded float-start"
+                 alt="@Model.Title" />
+        </div>
+
+        <div class="col-6">
+            <div>
+                <p>@Model.Title</p>
+            </div>
+            <div>
+                @foreach (var g in Model.Genre)
+
+                {
+                    <span class="badge bg-warning text-dark">@g.Name</span>
+                }
+
+            </div>
+
+            <div>
+                <span class="badge bg-warning text-dark">@Model.Rating</span>
+            </div>
+            <div>
+                <p>@Model.Overview</p>
+            </div>
+        </div>
+
+        <div class="col">
+            3 of 3
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <h5>MOVIE FACTS</h5>
+            <table class="table table-striped">
+                <tbody>
+                    <tr>
+                        <td> Release Date   </td>
+
+                        <td><span class="badge bg-dark text-white">@Model.ReleaseDate</span></td>
+                    </tr>
+                    <tr>
+                        <td> Run Time   </td>
+                        <td><span class="badge bg-dark text-white">@Model.RunTime</span></td>
+                    </tr>
+                    <tr>
+                        <td> Box Office   </td>
+                        <td><span class="badge bg-dark text-white">@Model.Revenue </span></td>
+                    </tr>
+                    <tr>
+                        <td> Budget   </td>
+                        <td><span class="badge bg-dark text-white">@Model.Budget</span></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+        <div class="col-5">
+            <h5>CAST</h5>
+            <table class="table">
+                <tbody>
+                    @foreach (var cast in Model.Casts)
+                    {
+                        <tr>
+                            <td>
+                                <a asp-controller="Movies" asp-action="CastDetails" asp-route-id="@cast.Id">
+                                    <img src="@cast.ProfilePath "
+                                         class="rounded float-start"
+                                         alt="@cast.Name" />
+                                </a>
+                            </td>
+                            <td> @cast.Name </td>
+                            <td> @cast.Character</td>
+                        </tr>
+
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="col">
+            3 of 3
+        </div>
+    </div>
+</div>
+
+
+

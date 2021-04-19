@@ -1,0 +1,36 @@
+C:\Users\XuejianZhou\Desktop\Antra\C#\3.25.2021 Introduction of DotNet Framework\New folder\MovieShop\Infrastructure\bin\Debug\net5.0\Infrastructure.deps.json
+C:\Users\XuejianZhou\Desktop\Antra\C#\3.25.2021 Introduction of DotNet Framework\New folder\MovieShop\Infrastructure\bin\Debug\net5.0\Infrastructure.runtimeconfig.json
+C:\Users\XuejianZhou\Desktop\Antra\C#\3.25.2021 Introduction of DotNet Framework\New folder\MovieShop\Infrastructure\bin\Debug\net5.0\Infrastructure.runtimeconfig.dev.json
+C:\Users\XuejianZhou\Desktop\Antra\C#\3.25.2021 Introduction of DotNet Framework\New folder\MovieShop\Infrastructure\bin\Debug\net5.0\Infrastructure.dll
+C:\Users\XuejianZhou\Desktop\Antra\C#\3.25.2021 Introduction of DotNet Framework\New folder\MovieShop\Infrastructure\bin\Debug\net5.0\ref\Infrastructure.dll
+C:\Users\XuejianZhou\Desktop\Antra\C#\3.25.2021 Introduction of DotNet Framework\New folder\MovieShop\Infrastructure\bin\Debug\net5.0\Infrastructure.pdb
+C:\Users\XuejianZhou\Desktop\Antra\C#\3.25.2021 Introduction of DotNet Framework\New folder\MovieShop\Infrastructure\bin\Debug\net5.0\ApplicationCore.dll
+C:\Users\XuejianZhou\Desktop\Antra\C#\3.25.2021 Introduction of DotNet Framework\New folder\MovieShop\Infrastructure\bin\Debug\net5.0\ApplicationCore.pdb
+C:\Users\XuejianZhou\Desktop\Antra\C#\3.25.2021 Introduction of DotNet Framework\New folder\MovieShop\Infrastructure\obj\Debug\net5.0\Infrastructure.csprojAssemblyReference.cache
+C:\Users\XuejianZhou\Desktop\Antra\C#\3.25.2021 Introduction of DotNet Framework\New folder\MovieShop\Infrastructure\obj\Debug\net5.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\XuejianZhou\Desktop\Antra\C#\3.25.2021 Introduction of DotNet Framework\New folder\MovieShop\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\XuejianZhou\Desktop\Antra\C#\3.25.2021 Introduction of DotNet Framework\New folder\MovieShop\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfo.cs
+C:\Users\XuejianZhou\Desktop\Antra\C#\3.25.2021 Introduction of DotNet Framework\New folder\MovieShop\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\XuejianZhou\Desktop\Antra\C#\3.25.2021 Introduction of DotNet Framework\New folder\MovieShop\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CopyComplete
+C:\Users\XuejianZhou\Desktop\Antra\C#\3.25.2021 Introduction of DotNet Framework\New folder\MovieShop\Infrastructure\obj\Debug\net5.0\Infrastructure.dll
+C:\Users\XuejianZhou\Desktop\Antra\C#\3.25.2021 Introduction of DotNet Framework\New folder\MovieShop\Infrastructure\obj\Debug\net5.0\ref\Infrastructure.dll
+C:\Users\XuejianZhou\Desktop\Antra\C#\3.25.2021 Introduction of DotNet Framework\New folder\MovieShop\Infrastructure\obj\Debug\net5.0\Infrastructure.pdb
+C:\Users\XuejianZhou\Desktop\Antra\C#\3.25.2021 Introduction of DotNet Framework\New folder\MovieShop\Infrastructure\obj\Debug\net5.0\Infrastructure.genruntimeconfig.cache
+C:\Users\XuejianZhou\Desktop\Project\MovieShop\Infrastructure\bin\Debug\net5.0\Infrastructure.deps.json
+C:\Users\XuejianZhou\Desktop\Project\MovieShop\Infrastructure\bin\Debug\net5.0\Infrastructure.runtimeconfig.json
+C:\Users\XuejianZhou\Desktop\Project\MovieShop\Infrastructure\bin\Debug\net5.0\Infrastructure.runtimeconfig.dev.json
+C:\Users\XuejianZhou\Desktop\Project\MovieShop\Infrastructure\bin\Debug\net5.0\Infrastructure.dll
+C:\Users\XuejianZhou\Desktop\Project\MovieShop\Infrastructure\bin\Debug\net5.0\ref\Infrastructure.dll
+C:\Users\XuejianZhou\Desktop\Project\MovieShop\Infrastructure\bin\Debug\net5.0\Infrastructure.pdb
+C:\Users\XuejianZhou\Desktop\Project\MovieShop\Infrastructure\bin\Debug\net5.0\ApplicationCore.dll
+C:\Users\XuejianZhou\Desktop\Project\MovieShop\Infrastructure\bin\Debug\net5.0\ApplicationCore.pdb
+C:\Users\XuejianZhou\Desktop\Project\MovieShop\Infrastructure\obj\Debug\net5.0\Infrastructure.csprojAssemblyReference.cache
+C:\Users\XuejianZhou\Desktop\Project\MovieShop\Infrastructure\obj\Debug\net5.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\XuejianZhou\Desktop\Project\MovieShop\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\XuejianZhou\Desktop\Project\MovieShop\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfo.cs
+C:\Users\XuejianZhou\Desktop\Project\MovieShop\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\XuejianZhou\Desktop\Project\MovieShop\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CopyComplete
+C:\Users\XuejianZhou\Desktop\Project\MovieShop\Infrastructure\obj\Debug\net5.0\Infrastructure.dll
+C:\Users\XuejianZhou\Desktop\Project\MovieShop\Infrastructure\obj\Debug\net5.0\ref\Infrastructure.dll
+C:\Users\XuejianZhou\Desktop\Project\MovieShop\Infrastructure\obj\Debug\net5.0\Infrastructure.pdb
+C:\Users\XuejianZhou\Desktop\Project\MovieShop\Infrastructure\obj\Debug\net5.0\Infrastructure.genruntimeconfig.cache

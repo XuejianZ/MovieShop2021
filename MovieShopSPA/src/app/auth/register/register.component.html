@@ -1,0 +1,79 @@
+<h1>Register</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form (ngSubmit)="register()" #RegisterForm="ngForm">
+            
+
+            
+      <div *ngIf="invalidRegistarion" class="alert alert-danger">
+        Registration Failed
+      </div>
+
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    aria-describedby="emailHelp"
+                    name="email"
+                    [(ngModel)]="userRegister.email"
+                />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input
+                    type="password"
+                    class="form-control"
+                    id="password"
+                    name="password"
+                    [(ngModel)]="userRegister.password"
+                />
+            </div>
+
+
+            <div class="form-group">
+                <label for="firstName">FirstName</label>
+                <input
+                    type="firstName"
+                    class="form-control"
+                    id="firstName"
+                    name="firstName"
+                    [(ngModel)]="userRegister.firstName"
+                />
+            </div>
+
+            <div class="form-group">
+                <label for="lasttName">LastTime</label>
+                <input
+                    type="lasttName"
+                    class="form-control"
+                    id="lasttName"
+                    name="lasttName"
+                    [(ngModel)]="userRegister.lastName"
+                />
+            </div>
+
+
+            <div class="form-group">
+                <label for="dateOfBirth">DateOfBirth</label>
+                <input
+                    type="dateOfBirth"
+                    class="form-control"
+                    id="dateOfBirth"
+                    name="dateOfBirth"
+                    [(ngModel)]="userRegister.dateOfBirth"
+                />
+            </div>
+            
+            <div>
+            <input type="submit" value="Submit" class="btn btn-primary" />
+            </div>    
+           
+        </form>
+    </div>
+</div>
