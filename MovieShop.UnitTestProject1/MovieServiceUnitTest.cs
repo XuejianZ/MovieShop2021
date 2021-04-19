@@ -85,6 +85,7 @@ namespace MovieShop.UnitTestProject1
 
             //AAA
             //Arrange ,Act, and Assert
+            //Arrange ,Act, and Assert
 
             //Assert
             Assert.IsNotNull(movies);
